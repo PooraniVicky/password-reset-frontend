@@ -51,7 +51,7 @@ const LoginPage = () => {
                 </div>
                 <p className='text-center mt-3'>Or</p>
                 <h1 className='text-center'><i className="bi bi-person-circle"> Login</i></h1>
-                <form onSubmit={(e) => e.preventDefault()}>
+                <form>
                   <div className="mb-3">
                     <label className="form-label">Email</label>
                     <input

@@ -8,10 +8,7 @@ import HomePage from './Pages/HomePage';
 
 
 const App = () => {
-  const isAuthenticated = () => {
-    // Example: Check if auth token is present in local storage
-    return !!localStorage.getItem('token');
-  };
+  
 
   return (
     <Router>
@@ -23,10 +20,7 @@ const App = () => {
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route path="/reset-password" element={<ResetPasswordPage />} />
           <Route path="/reset-password/:token" element={<ResetPasswordPage />} />
-          <Route
-            path="/home"
-            element={isAuthenticated() ? <HomePage /> : <Navigate to="/login" />}
-          />
+          <Route path="/home" element={<HomePage />}  />
         </Routes>
       </div>
     </Router>
