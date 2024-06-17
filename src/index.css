@@ -1,0 +1,37 @@
+body
+{
+  background-image: url(/public/Login-Page-Background-5.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-transform: uppercase;
+    /* background-color: whitesmoke; */
+    /* background: linear-gradient(to right, rgb(93, 93, 251), white); */
+}
+
+/* Form Style */
+.login-form,
+.forgot-password-form,
+.sign-up-page,
+.home-page,
+.reset-page
+{
+  
+    width: 90%;
+    /* background-image: url(/public/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border-radius: 10px;
+    box-shadow: 0 0 8000px rgb(212, 192, 9);
+}
+
+/* Input Fields Style */
+.name-input,
+.email-input,
+.password-input,
+.repeat-password,
+.newpassword,
+.confirm-password
+{
+    border: 2px solid rgb(221, 200, 11);
+}
