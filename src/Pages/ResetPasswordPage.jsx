@@ -55,13 +55,8 @@ const ResetPasswordPage = () => {
                     <button type="button" className="btn btn-primary" onClick={handleResetPassword}>
                       Reset Password
                     </button>
-                  </div><br />
-                  <div className='d-flex justify-content-center'>
-                  <p style={{color:'red', fontSize:'larger'}}> Try to remember the password to avoid resetting the password</p>
-
                   </div>
-
-                </form>
+                 </form>
               </div>
             </div>
           </div>

@@ -10,6 +10,8 @@ const ForgotPasswordPage = () => {
     try {
       await axios.post('https://password-reset-backend-ud2r.onrender.com/auth/forgot-password', { email });
       alert('Password reset link sent to your email');
+      navigate('/login', { state: { username } });
+
     } catch (error) {
       if (error.response && error.response.status === 404) {
         alert('User not registered');

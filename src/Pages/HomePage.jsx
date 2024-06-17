@@ -20,7 +20,6 @@ const HomePage = () => {
     <div className="container home-page py-5 mt-5">
       <h3 className='text-center mt-4'>Welcome {username}</h3>
       <div className="text-center mt-4">
-        <h5>This Password reset task app</h5>
         <p>Thankyou for Login {username}...!!!</p>
         <button className="btn btn-danger" onClick={handleLogout}>Logout <i className="bi bi-box-arrow-right"></i></button>
       </div>
