@@ -21,4 +21,6 @@ This is a Full Stack Authentication System project that includes user registrati
 - bcrypt: A password hashing library.
 - JWT (JSON Web Token): A library for creating and validating tokens for user authentication.
 - Nodemailer: A module for sending emails (used for password recovery).
-### Project Link: 
+### Project Link: https://password-reset-demotask-app.netlify.app
+###
+![image](https://github.com/user-attachments/assets/96d8cedf-9c18-45aa-be9b-b16cbfc50bdc)
